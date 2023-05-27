@@ -1,4 +1,179 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-flow: wrap;
+}
+.col-xl, .col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1, .col-lg, .col-lg-auto, .col-lg-12, .col-lg-11, .col-lg-10, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1, .col-md, .col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm, .col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col, .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.pl-0{
+    padding-left: 0;
+}
+.pr-0{
+    padding-right: 0;
+}
+.pt-0{
+    padding-top: 0;
+}
+.pb-0{
+    padding-bottom: 0;
+}
+.p-0{
+    padding: 0;
+}
+.w-100{
+    width:100%;
+}
+  .m-r-1{
+    margin-right: 10px !important;
+  }
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+.col-1{flex:0 0 auto;width:8.33333333%}
+.col-2{flex:0 0 auto;width:16.66666667%}
+.col-3{flex:0 0 auto;width:25%}
+.col-4{flex:0 0 auto;width:33.33333333%}
+.col-5{flex:0 0 auto;width:41.66666667%}
+.col-6{flex:0 0 auto;width:50%}
+.col-7{flex:0 0 auto;width:58.33333333%}
+.col-8{flex:0 0 auto;width:66.66666667%}
+.col-9{flex:0 0 auto;width:75%}
+.col-10{flex:0 0 auto;width:83.33333333%}
+.col-11{flex:0 0 auto;width:91.66666667%}
+.col-12{flex:0 0 auto;width:100%}
+@media (min-width: 576px) {
+    .col-sm-auto { flex: 0 0 auto;width: auto;}
+    .col-sm-1 {flex: 0 0 auto; width: 8.33333333%;}
+    .col-sm-2 {flex: 0 0 auto; width: 16.66666667%;}
+    .col-sm-3 { flex: 0 0 auto; width: 25%;}
+    .col-sm-4 { flex: 0 0 auto; width: 33.33333333%;}
+    .col-sm-5 { flex: 0 0 auto; width: 41.66666667%;}
+    .col-sm-6 { flex: 0 0 auto; width: 50%;}
+    .col-sm-7 { flex: 0 0 auto; width: 58.33333333%;}
+    .col-sm-8 { flex: 0 0 auto; width: 66.66666667%;}
+    .col-sm-9 { flex: 0 0 auto; width: 75%;}
+    .col-sm-10 { flex: 0 0 auto; width: 83.33333333%;}
+    .col-sm-11 { flex: 0 0 auto; width: 91.66666667%;}
+    .col-sm-12 { flex: 0 0 auto; width: 100%;}
+}
+@media (min-width:768px){
+    .col-md-auto{flex:0 0 auto;width:auto}
+    .col-md-1{flex:0 0 auto;width:8.33333333%;}
+    .col-md-2{flex:0 0 auto;width:16.66666667%;}
+    .col-md-3{flex:0 0 auto;width:25%;}
+    .col-md-4{flex:0 0 auto;width:33.33333333%}
+    .col-md-5{flex:0 0 auto;width:41.66666667%;}
+    .col-md-6{flex:0 0 auto;width:50%;}
+    .col-md-7{flex:0 0 auto;width:58.33333333%}
+    .col-md-8{flex:0 0 auto;width:66.66666667%;}
+    .col-md-9{flex:0 0 auto;width:75%;}
+    .col-md-10{flex:0 0 auto;width:83.33333333%;}
+    .col-md-11{flex:0 0 auto;width:91.66666667%;}
+    .col-md-12{flex:0 0 auto; width:100%;}
+}
+@media (min-width: 992px) {
+    .col-lg-auto {flex: 0 0 auto; width: auto;}
+    .col-lg-1 {flex: 0 0 auto; width: 8.33333333%;}
+    .col-lg-2 {flex: 0 0 auto; width: 16.66666667%;}
+    .col-lg-3 {flex: 0 0 auto; width: 25%;}
+    .col-lg-4 {flex: 0 0 auto; width: 33.33333333%;}
+    .col-lg-5 {flex: 0 0 auto; width: 41.66666667%;}
+    .col-lg-6 {flex: 0 0 auto; width: 50%;}
+    .col-lg-7 {flex: 0 0 auto; width: 58.33333333%;}
+    .col-lg-8 {flex: 0 0 auto; width: 66.66666667%;}
+    .col-lg-9 {flex: 0 0 auto; width: 75%;}
+    .col-lg-10 {flex: 0 0 auto; width: 83.33333333%;}
+    .col-lg-11 {flex: 0 0 auto;  width: 91.66666667%;}
+    .col-lg-12 { flex: 0 0 auto; width: 100%;}
+}
+.form{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.card {
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: #333;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    font-size: .875rem;
+}
+.card .card-header{
+    border-radius: 3px;
+    padding: 15px;
+    margin: -20px 15px 10px 15px;
+    position: relative;
+}
+.card .card-header .card-title {
+    margin-bottom: 3px;
+    color: #fff;
+}
+.card .card-header .card-category {
+    color: rgba(255,255,255,.62);
+    margin: 0;
+}
+.card .card-body {
+    padding: 0.9375rem 20px;
+    position: relative;
+}
+.card-header-primary{
+    background-color: #3f51b5;
+}
+.card-header-warn{
+    background-color: #f44336;
+}
+.card-body-form-field .mat-mdc-text-field-wrapper, .card-body-form-field .mat-mdc-text-field-wrapper.mdc-text-field--focused, .card-body-form-field .mat-mdc-text-field-wrapper.mdc-text-field--focused .mat-mdc-form-field-focus-overlay, .card-body-form-field .mat-mdc-form-field:hover .mat-mdc-form-field-focus-overlay{
+    background: none !important;
+    padding: 0;
+
+}
+.update-btn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.update-btn-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-header h4 {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 15px;
+    padding-top: 8px;
+}
+
+.form-header p {
+    font-size: 14px;
+    font-weight: 400;
+}
